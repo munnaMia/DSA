@@ -1,0 +1,10 @@
+Big O notation is a way to describe the efficiency of an algorithm.
+
+---> Imagine you have millions of pieces of user data and need to perform some operation on all of them. But there are several different ways to approach this task. How do you choose the best method?
+(কল্পনা করুন আপনার কাছে কোটি কোটি ইউজার ডেটা আছে এবং আপনাকে সেগুলোর সবগুলোর উপর কোনো একটা অপারেশন চালাতে হবে। কিন্তু, এই কাজটি করার জন্য একাধিক পদ্ধতি আছে। কোন পদ্ধতিটি সবচেয়ে ভালো বেছে নেবেন?)
+
+This is where Big O notation comes in. It's a tool in computer science that helps us compare the efficiency of different algorithms. It doesn't tell you the exact time each algorithm takes, but it describes how the time complexity grows as the input size (number of users) increases.
+(এখানেই  Big O লিখনপদ্ধতি (Big O notation) কাজে লাগে। এটি কম্পিউটার সায়েন্সের এমন একটা টুল যা আমাদের বিভিন্ন অ্যালগোরিদমের কার্যকরী দক্ষতা (efficiency) তুলনা করতে সাহায্য করে। এটি আপনাকে প্রতিটি অ্যালগোরিদম কতটা সময় নেয় ঠিক সেটা না জানালেও, ইনপুটের আকার (ইউজার সংখ্যা) বাড়ার সাথে সাথে এর সময় জটিলতা (time complexity) কীভাবে বাড়ে সে সম্পর্কে ধারণা দেয়।)
+
+In simpler terms, Big O notation helps you understand how much slower an algorithm will become as you deal with more and more data.
+(সহজ ভাষায় বলতে গেলে, বড় O লিখনপদ্ধতি আপনাকে বুঝতে সাহায্য করে যে আপনি যত বেশি ডেটা নিয়ে কাজ করবেন, ততই একটি অ্যালগোরিদম কতটা ধীরে হয়ে যাবে।)
