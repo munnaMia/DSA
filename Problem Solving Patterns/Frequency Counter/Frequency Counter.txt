@@ -1,0 +1,55 @@
+Try to avoid nested LOOPs in program and try to use OBJECTS of MAPs to solve the problem and use a single loop.
+to make time complexity Linear O(n) to avoid O(n^2).
+
+PROBLEM to understands the consept:
+===================================
+Anagrams :-: Given two strings, write a function to determine if the
+second string is an anagram of the first. An anagram is a word, phrase
+, or name formed by rearranging the letters of another, such as cinema, 
+formed from iceman.
+
+A Frequency Counter solution :
+==============================
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println(anagram("hello", "hello"))
+}
+
+func anagram(str1, str2 string) bool {
+
+	if len(str1) != len(str2) {
+		return false
+	}
+
+	var track1 = make(map[string]int)
+	var track2 = make(map[string]int)
+
+	for _, v := range str1 {
+		_, ok := track1[string(v)]
+		if ok {
+			track1[string(v)]++
+		} else {
+			track1[string(v)] = 1
+		}
+	}
+
+	for _, v := range str2 {
+		_, ok := track2[string(v)]
+		if ok {
+			track2[string(v)]++
+		} else {
+			track2[string(v)] = 1
+		}
+	}
+
+	for i := range track1 {
+		if track1[i] != track2[i] {
+			return false
+		}
+	}
+
+	return true
+}
