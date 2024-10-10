@@ -7,6 +7,11 @@
 
 ## Topics List :
 
+ 1. Big O
+ 2. Problem Solving Pattern
+    - Friquency Counter
+    - Multiple Pointer
+
 
 
 <h3>Hey Dear,</h3>

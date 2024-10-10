@@ -1,0 +1,23 @@
+Recursion : A process(Function) that called it self.
+
+Call-Stack : It's a data structure. Any time a Function is invoked 
+             it is placed on the top of the call stack.
+
+Stack :
+              Top
+        ================
+        |  Function 06 |
+        ================
+        |  Function 05 |
+        ================
+        |  Function 04 |
+        ================
+        |  Function 03 |
+        ================
+        |  Function 02 |
+        ================
+        |  Function 01 |
+        ================
+             Bottom
+
+Base Case : A condition when a Recursions stop.
