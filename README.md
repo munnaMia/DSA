@@ -8,11 +8,13 @@
 
 ## Topics List :
 
-1. Big O
-2. Problem Solving Pattern
+00. Basics of DSA
+01. Basic Topics for DSA
+    - Fibonacci
+    - Recursion
+02. Problem Solving Pattern
     - Friquency Counter
     - Multiple Pointer
-3. Recursion
 
 <h3>Hey Dear,</h3>
 
