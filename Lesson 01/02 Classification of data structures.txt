@@ -1,0 +1,30 @@
+Data Structure Classification:
+==============================
+
+    (01) Linear :
+        -> Lists
+        -> Sets 
+        -> Tuples
+        -> Queues
+        -> Stacks
+        -> Heaps
+
+    (02) Non-Linear :
+        -> Trees
+        -> Tables
+        -> Containers
+
+    (03) Homogeneous :
+        -> 2D Arrays
+        -> MultiDimensional Arrays
+
+    (04) Heterogeneous :
+        -> Linked Lists
+        -> Ordered Lists
+        -> Unordered Lists
+
+    (05) Dynamic :
+        -> Dictionaries
+        -> Tree Sets
+        -> Sequences
+

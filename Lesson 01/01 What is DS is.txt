@@ -1,0 +1,3 @@
+Data Structure: A Data Structure is the organization of data. It reduce the usages of storage space and reduce the difficulty while performing differnt tasks. It is used to handle a large amount of data. like - Database manaagement, Public informations.
+
+ডাটা স্ট্রাকচার ঃ ডাটা স্ট্রাকচার বলতে মূলত সাজানো গোছানো ডাটাকে বোঝানো হয়। এটি মূলত মেমোরির অধিক ব্যবহার কমিয়ে দেয়  এবং ডাটা উপর বিভিন্ন ধরনের অপারেশনের জটিলতা অনেক অংশে কমিয়ে দেয়। (এগুলো নিয়ে পরে আর কথা হবে।)। এটিকে মুলত ব্যবহার করা হয় বৃহৎ পরিমানের তথ্য সঠিকভাবে ব্যবহারের জন্য ব্যবহার করা হয়। যেমনঃ ডাটাবেস মেনেজমেন্ট, ইন্টারনের ইন্ডেক্সিং সেবাতে।
