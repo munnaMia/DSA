@@ -1,0 +1,12 @@
+(01)
+====
+What is List: A list is a sequences of elements. Where each element connected to another element with a link in forward or backward direction. Here element can be add or remove easily than an array. Data will not be  contiguous in memory.
+
+লিস্ট কিঃ লিস্ট মূলত একাদিক আইটেম এর একটি সিকুয়েন্স যেখানে প্রতেকটি এলিমেন্ট তার সামনে অথবা পেছনের এলিমেন্ট এর সাথে সংযুক্ত থাকে।  এতে  Array  থেকে সহজে এলিমেন্ট যুক্ত বা সরানো যায়। মেমোরিতে এলিমেন্ট গুলো একাধারে সাজানো থাকে না।
+
+
+(02)
+====
+What is Tuple: A Tuple is a collection of items, like list but it can't be changed after it created. all the item will stay in a order. It can contain different type of data. it is faster then a list because it is immutable.
+
+Tuple কিঃ Tuple হল এক ধরনের ডাটা স্ট্রাকচার, যা লিস্টের মতোই একাধিক মান সংরক্ষণ করতে পারে, তবে এটি পরিবর্তনযোগ্য নয় (immutable)। একবার তৈরি হলে, এর মান পরিবর্তন, যোগ বা মুছা যায় না। এবং এটি লিস্ট হতেও দ্রুত। 

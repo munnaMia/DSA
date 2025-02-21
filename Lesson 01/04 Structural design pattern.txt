@@ -1,0 +1,10 @@
+What is Structural design pattern: Structural design patterns define how objects and classes are organized to form larger structures while ensuring flexibility and efficiency. These patterns focus on simplifying relationships between entities to improve code maintainability and reusability.
+
+==> Adapter Pattern – Converts one interface into another that a client expects.
+==> Bridge Pattern – Separates abstraction from implementation for flexibility.
+==> Composite Pattern – Organizes objects into tree structures (useful for hierarchical data).
+==> Decorator Pattern – Dynamically adds behavior to objects at runtime.
+==> Facade Pattern – Provides a simplified interface to a complex system.
+==> Flyweight Pattern – Reduces memory usage by sharing objects.
+==> Proxy Pattern – Acts as a substitute or placeholder for another object.
+==> Private Class Data Pattern – This pattern is used to restrict direct access to class attributes and protect the integrity of an object's state by encapsulating sensitive data.
