@@ -2,9 +2,13 @@
 
 ## Here i shared my all learnings.
 
-<mark> All the Text and explanation you see is done by me. So if i made any mistake sorry for that.</mark>
+<mark> If i made any mistake sorry for that.</mark>
 
  ## Lessons : 
 - Lesson 01
-    - 
+    - What is DS
+    - Classificaion of DS
+    - More about Classification
+    - Structural Design pattern
+- Lesson 02
  
