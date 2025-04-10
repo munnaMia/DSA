@@ -1,7 +1,11 @@
 package main
 
-import patterns "github.com/munnaMia/DSA/Patterns"
+import (
+	"fmt"
+
+	basicmath "github.com/munnaMia/DSA/BasicMath"
+)
 
 func main() {
-	patterns.BackWardAplaTringle(5)
+	fmt.Println(basicmath.CountTheDigit(-12313))
 }

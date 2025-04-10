@@ -133,23 +133,22 @@ func AlpaPiramid(n int) {
 	}
 }
 
-// Output   
+// Output
 //     A
 //    ABA
 //   ABCBA
 //  ABCDCBA
 // ABCDEDCBA
 
-
-func BackWardAplaTringle(n int){
-	
-	for i :=0; i< n;i++{
-		for ch:='E'-rune(i); ch<='E';ch++{
+func BackWardAplaTringle(n int) {
+	for i := 0; i < n; i++ {
+		for ch := 'E' - rune(i); ch <= 'E'; ch++ {
 			fmt.Print(string(ch))
 		}
 		fmt.Println()
 	}
 }
+
 // output
 // E
 // DE
