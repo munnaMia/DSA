@@ -7,5 +7,5 @@ import (
 )
 
 func main() {
-	fmt.Println(basicmath.CountTheDigitOptimalSol(123313))
+	fmt.Println(basicmath.ReverseDigit(1534236469))
 }
