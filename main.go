@@ -7,5 +7,5 @@ import (
 )
 
 func main() {
-	fmt.Println(basicmath.ReverseDigit(1534236469))
+	fmt.Println(basicmath.GCDOptimal(20,15))
 }
