@@ -7,5 +7,5 @@ import (
 )
 
 func main() {
-	fmt.Println(basicmath.GCDOptimal(20,15))
+	fmt.Println(basicmath.Armstrong(153))
 }
