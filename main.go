@@ -7,5 +7,5 @@ import (
 )
 
 func main() {
-	fmt.Println(basicmath.Armstrong(153))
+	fmt.Println(basicmath.Prime(7))
 }
