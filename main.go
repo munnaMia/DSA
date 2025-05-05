@@ -1,11 +1,7 @@
 package main
 
-import (
-	"fmt"
-
-	basicmath "github.com/munnaMia/DSA/BasicMath"
-)
+import recursion "github.com/munnaMia/DSA/Recursion"
 
 func main() {
-	fmt.Println(basicmath.Prime(7))
+	recursion.RevNumber( 3)
 }
