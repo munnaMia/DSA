@@ -1,7 +1,11 @@
 package main
 
-import recursion "github.com/munnaMia/DSA/Recursion"
+import (
+	"fmt"
+
+	recursion "github.com/munnaMia/DSA/Recursion"
+)
 
 func main() {
-	recursion.RevNumber( 3)
+	fmt.Println(recursion.ReverseArrayUsingRecursion([]int{3, 3, 4, 5, 6, 7}, 0, 5))
 }
