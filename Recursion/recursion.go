@@ -106,3 +106,26 @@ func ReverseArrayUsingRecursion(arr []int, p1, p2 int) []int {
 	}
 	return arr
 }
+
+// Problem Statement: "Given a string, check if the string is palindrome or not."  A string is
+// said to be palindrome if the reverse of the string is the same as the string.
+func Palidrome(str string, start, end int) bool {
+	if start >= end {
+		return true
+	}
+	if str[start] != str[end] {
+		return false
+	}
+	return Palidrome(str, start+1, end-1)
+}
+
+// Problem Statement:Given an integer N. Print the Fibonacci series up to the Nth term.
+func Fibonacci(n int) int{
+	if n == 0 {
+		return 0
+	}
+	if n== 1 {
+		return 1
+	}
+	return Fibonacci(n-1) + Fibonacci(n-2)
+}
