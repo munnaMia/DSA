@@ -1,0 +1,8 @@
+Hashing in DSA is a technique that uses a hash function to map data to a specific index in a hash table, allowing for efficient storage and retrieval of data.
+
+Applications:
+    Hashing is widely used in various applications, including:
+    - Databases     : For indexing and quickly retrieving data based on keys. 
+    - Caching       : To store frequently accessed data and speed up retrieval. 
+    - Cryptography  : For creating digital signatures and verifying data integrity. 
+    - Symbol Tables : In compilers and interpreters, to store identifiers and their attributes. 
