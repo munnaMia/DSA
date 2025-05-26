@@ -7,7 +7,5 @@ import (
 )
 
 func main() {
-	for key, value := range hashing.CharCounter("test case with another", []rune{'t', 'a', 'e', 'j', 'w', 'i', 's'}) {
-		fmt.Printf("%s => %d \n", string(key), value)
-	}
+	fmt.Println(hashing.CounterHighandLow([]int{3, 4, 5, 6, 3, 1, 3, 5, 3}))
 }

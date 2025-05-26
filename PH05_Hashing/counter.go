@@ -58,3 +58,29 @@ r => 1
 t => 4
 a => 2
 */
+
+func CounterHighandLow(arr []int) (int, int) {
+	result := make(map[int]int)
+
+	// counting there repeations
+	for i := range arr {
+		result[arr[i]]++
+	}
+
+	var maxKey, maxRep, minKey, minRep int
+
+	minRep = len(arr) - 1
+
+	for key, value := range result {
+		if maxRep < value {
+			maxRep = value
+			maxKey = key
+		}
+		if minRep > value {
+			minRep = value
+			minKey = key
+
+		}
+	}
+	return maxKey, minKey
+}
